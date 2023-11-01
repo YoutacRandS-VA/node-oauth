@@ -1,0 +1,13 @@
+modules = ["nodejs-18:v3-20230608-f4cd419"]
+hidden = [".config", "package-lock.json"]
+run = "run make"
+compile = "make"
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["sh", "-c", "run make"]
+deploymentTarget = "cloudrun"
+ignorePorts = false
+build = ["sh", "-c", "make"]
