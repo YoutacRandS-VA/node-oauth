@@ -19,11 +19,26 @@
     },
     "license": "MIT",
     "dependencies": {
+        "@4lch4/tailscale-api": "^0.1.2",
+        "@4lch4/tailscale-lib": "^1.1.0",
+        "@cloudyskysoftware/pulumi-tailscale-native": "^0.0.14",
+        "@indent/integration-tailscale": "^0.0.1-canary.19",
+        "@khasty720/dynamodb-localhost": "^0.0.10",
+        "@pulumi/tailscale": "^0.13.2",
+        "@tailscale/connect": "^1.39.98-t02582083d-gf31108a29",
         "axios": "^1.6.0",
+        "cdk-tailscale-bastion": "^2.1.0",
         "chalk": "^5.3.0",
         "discord.js": "^14.13.0",
+        "dynamodb-localhost-fixurl": "^0.0.9",
         "express": "^4.18.2",
+        "https-localhost": "^4.7.1",
+        "iobroker.tailscale": "^0.1.0",
+        "is-port-reachable": "^4.0.0",
+        "localhost": "^0.4.1",
         "moment": "^2.29.4",
-        "node-fetch": "^3.3.2"
+        "ngrok": "^5.0.0-beta.2",
+        "node-fetch": "^3.3.2",
+        "private-ip": "^3.0.1"
     }
 }
